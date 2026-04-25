@@ -2,9 +2,9 @@ import project1 from "../assets/projects/password-manager.png";
 import project2 from "../assets/projects/my-portfolio.png";
 import project3 from "../assets/projects/twitter-clone.png";
 
-export const HERO_CONTENT = `I am a passionate Computer Science student and aspiring software engineer with a strong foundation in full stack development. I have hands-on experience with front-end technologies like React and back-end technologies like Node.js and MongoDB, as well as proficiency in DSA and Java. My goal is to continuously upskill and leverage my knowledge to build innovative and efficient applications, aiming to contribute to impactful projects like GSoC and beyond.`;
+export const HERO_CONTENT = `I am a passionate Computer Science student and aspiring software engineer with a strong foundation in full stack development. I have hands-on experience with front-end technologies like React and back-end technologies like Node.js and MongoDB, as well as proficiency in DSA and Java.`;
 
-export const ABOUT_TEXT = `I am a dedicated Computer Science student with a passion for learning and expanding my skill set. Currently focused on web development and DSA with Java, I aim to incorporate these skills into my journey towards becoming a well-rounded software engineer. My curiosity drives me to continuously explore new technologies and challenges. I thrive in collaborative environments and enjoy problem-solving to deliver effective solutions. While I'm not a full stack developer, I am building my expertise in web development as part of my broader goal to excel as a software engineer.`;
+export const ABOUT_TEXT = `Currently focused on web development and DSA with Java, I aim to incorporate these skills into my journey towards becoming a well-rounded software engineer. My curiosity drives me to continuously explore new technologies and challenges. I thrive in collaborative environments and enjoy problem-solving to deliver effective solutions.`;
 
 export const EXPERIENCES = [
   {
@@ -43,7 +43,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Moradabad, Uttar Pradesh, india - 244001",
-  phoneNo: "+91 9548998327",
+  address: "Uttar Pradesh, india - 244001",
+  // phoneNo: "+91 9548998327",
   email: "prem.s244001@gmail.com",
 };
