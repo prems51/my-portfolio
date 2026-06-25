@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants"
-import profile_pic from "../assets/profilePic1.png"
+import profile_pic from "../assets/profilePic1.jpg"
 import { motion } from "framer-motion"
 
 
@@ -40,7 +40,7 @@ const Hero = () => {
                 </div>
 
                 {/* Image div */}
-                <div className="w-full lg:w-1/3 lg:p-8">
+                {/* <div className="w-full lg:w-1/4 lg:p-8">
                     <div className="flex justify-center items-center">
                         <motion.img 
                         initial={{x:100, opacity:0}}
@@ -48,7 +48,7 @@ const Hero = () => {
                         transition={{duration:1, delay:1.2}}
                         src={profile_pic} alt="Prem" className="rounded-2xl" />
                     </div>
-                </div>
+                </div> */}
 
 
             </div>

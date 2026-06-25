@@ -5,6 +5,9 @@ import TechStack from "./components/TechStack"
 import Experience from "./components/Experience"
 import Projects from "./components/Projects"
 import Contact from "./components/Contact"
+import Academics from "./components/Academics"
+import Certifications from "./components/Certifications"
+
 
 
 export default function App() {
@@ -21,8 +24,10 @@ export default function App() {
           <Hero />
           <About />
           <TechStack />
-          <Experience />
+          {/* <Experience /> */}
+          <Academics />
           <Projects />
+          <Certifications />
           <Contact />
         </div>
       </div>

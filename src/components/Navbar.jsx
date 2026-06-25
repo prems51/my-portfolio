@@ -1,6 +1,7 @@
 import logo from "../assets/logo.svg"
 import { FaLinkedin, FaGithub, FaInstagram, } from "react-icons/fa"
 import { FaSquareXTwitter } from "react-icons/fa6"
+import { SiLeetcode } from "react-icons/si";
 
 
 const Navbar = () => {
@@ -13,6 +14,7 @@ const Navbar = () => {
       <div className="m-8 flex items-center justify-center gap-4 text-2xl ">
         <a href="https://www.linkedin.com/in/premraj-singh-944791285/" target="_blank"><FaLinkedin /></a>
         <a href="https://github.com/prems51" target="_blank"><FaGithub /></a>
+        <a href="https://leetcode.com/u/Prems51/" target="_blank"><SiLeetcode /></a>
         <a href="https://www.instagram.com/yrr_premmm/" target="_blank"><FaInstagram /></a>
         <a href="https://x.com/Prem_Ji67" target="_blank"><FaSquareXTwitter /></a>
       </div>

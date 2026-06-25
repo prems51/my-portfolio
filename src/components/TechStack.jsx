@@ -3,6 +3,7 @@ import { TbBrandNextjs } from "react-icons/tb"
 import { SiMongodb } from "react-icons/si"
 import { FaNodeJs } from "react-icons/fa"
 import { SiExpress } from "react-icons/si";
+import { GrMysql } from "react-icons/gr";
 import FaJava from "../assets/java-svgrepo-com.svg"
 
 import { animate, motion } from "framer-motion";
@@ -57,6 +58,14 @@ const TechStack = () => {
                 animate="animate"
                 className="border-4 rounded-2xl border-neutral-800 p-2">
                     <SiMongodb className="text-7xl text-green-500" />
+                </motion.div>
+
+                <motion.div 
+                variants={iconVariants(3)}
+                initial="initial"
+                animate="animate"
+                className="border-4 rounded-2xl border-neutral-800 p-2">
+                    <GrMysql className="text-7xl text-blue-400" />
                 </motion.div>
 
                 <motion.div 

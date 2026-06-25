@@ -12,13 +12,13 @@ const Projects = () => {
 
             <div>
                 {PROJECTS.map((project, index) => (
-                    <div className="mb-8 flex flex-wrap lg:justify-center" key={index}>
+                    <div className="mb-8 flex flex-wrap lg:justify-center items-center gap-3" key={index}>
                         <motion.div 
                         whileInView={{opacity:1, x:0}}
                         initial={{opacity:0, x:-100}}
                         transition={{duration:1}}
                         className="w-full lg:w-1/4">
-                            <img src={project.image} alt={project.title} width={150} height={150} className="mb-6 rounded" />
+                            <img src={project.image} alt={project.title} width={300} className="mb-6 rounded" />
                         </motion.div>
                         
                         <motion.div 
@@ -26,7 +26,11 @@ const Projects = () => {
                         initial={{opacity:0, x:100}}
                         transition={{duration:1}}
                         className="w-full max-w-xl lg:w-3/4">
-                            <h6 className="mb-2 font-semibold">{project.title}</h6>
+                            <h6 className="mb-2 font-semibold flex items-center gap-3">
+                                <span className="text-purple-100">{project.title}</span>
+                                <p className="text-sm text-purple-100 font-extralight italic">{project.date}</p>
+                                <a href={project.url} target="_blank" rel="noopener noreferrer" className="text-sm text-purple-100 font-light italic underline">Go to the project</a>
+                            </h6>
                             <p className="mb-4 text-neutral-400">{project.description}</p>
 
                             {project.technologies.map((tech, idx) => (
